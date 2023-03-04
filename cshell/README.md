@@ -6,15 +6,15 @@ run 'make' and execute the program output
 
 ### Supported Commands
 
-$<var>=<value>: declare a variable to hold the designated value
+$(var)=(value): Declare a variable to hold the designated value.
 
-print [args]: print the value associated with each variable designated by args, if a variable is not assigned it will be mentioned
+print [args]: Print the value associated with each variable designated in args. If a variable is not assigned it will be mentioned.
 
-exit: terminates the shell instance
+exit: Terminates the shell instance.
 
-log: print a history of executed commands with time and return codes
+log: Print a history of executed commands with time and return codes.
 
-theme <arg>: change the terminal's text colour to a set of supported colours: black, red, green, yellow, blue, magenta, cyan, white, and their bright versions.
+theme (arg): Change the terminal's text colour to a set of supported colours: black, red, green, yellow, blue, magenta, cyan, white, and their bright versions.
 
 The shell can also execute any command that the terminal can also execute.
 
